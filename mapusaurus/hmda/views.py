@@ -2,7 +2,7 @@ import json
 
 from django.db.models import Count
 from django.http import HttpResponse, HttpResponseBadRequest
-from hmda.models import HMDARecord, LendingStats
+from hmda.models import HMDARecord
 from geo.models import Geo
 from geo.views import get_censustract_geoids 
 from rest_framework.renderers import JSONRenderer
